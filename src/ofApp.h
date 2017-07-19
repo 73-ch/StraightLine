@@ -35,4 +35,6 @@ class ofApp : public ofBaseApp{
     
     vec3 dVec;
     vec3 bPos;
+    vec3 randomSeed;
+    int count;
 };

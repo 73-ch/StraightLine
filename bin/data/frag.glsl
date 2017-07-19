@@ -1,9 +1,7 @@
-#ifdef GL_ES
-precision mediump float;
-#endif
+#version 150
 
-varying float sOpac;
+out vec4 outColor;
 
 void main(){
-    gl_FragColor = vec4(255, 255, 255, 255);
+    outColor = vec4(0., 1.0, 1.0, 1.0);
 }
